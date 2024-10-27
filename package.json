@@ -1,0 +1,39 @@
+{
+  "name": "@isergeevv/react-component-slider",
+  "version": "0.0.0",
+  "description": "A slider for your images/containers.",
+  "main": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isergeevv/react-component-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "@isergeevv:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "@types/react": "^18.3.12",
+    "rollup": "^4.24.2",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
