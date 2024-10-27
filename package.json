@@ -1,6 +1,6 @@
 {
   "name": "@isergeevv/react-component-slider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A slider for your images/containers.",
   "main": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
